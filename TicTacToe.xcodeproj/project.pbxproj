@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		EFAFD0D226F725C100C74923 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAFD0D126F725C100C74923 /* AppDelegate.swift */; };
 		EFAFD0D426F725C100C74923 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAFD0D326F725C100C74923 /* SceneDelegate.swift */; };
-		EFAFD0D626F725C100C74923 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAFD0D526F725C100C74923 /* ContentView.swift */; };
+		EFAFD0D626F725C100C74923 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAFD0D526F725C100C74923 /* GameView.swift */; };
 		EFAFD0D826F725C200C74923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFAFD0D726F725C200C74923 /* Assets.xcassets */; };
 		EFAFD0DB26F725C200C74923 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFAFD0DA26F725C200C74923 /* Preview Assets.xcassets */; };
 		EFAFD0DE26F725C200C74923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAFD0DC26F725C200C74923 /* LaunchScreen.storyboard */; };
 		EFAFD0E626F77E1C00C74923 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAFD0E526F77E1C00C74923 /* Alerts.swift */; };
+		EFAFD0E826FB1DF300C74923 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAFD0E726FB1DF300C74923 /* GameViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EFAFD0CE26F725C100C74923 /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFAFD0D126F725C100C74923 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFAFD0D326F725C100C74923 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EFAFD0D526F725C100C74923 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EFAFD0D526F725C100C74923 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		EFAFD0D726F725C200C74923 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFAFD0DA26F725C200C74923 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EFAFD0DD26F725C200C74923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFAFD0DF26F725C200C74923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFAFD0E526F77E1C00C74923 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		EFAFD0E726FB1DF300C74923 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,8 @@
 			children = (
 				EFAFD0D126F725C100C74923 /* AppDelegate.swift */,
 				EFAFD0D326F725C100C74923 /* SceneDelegate.swift */,
-				EFAFD0D526F725C100C74923 /* ContentView.swift */,
+				EFAFD0D526F725C100C74923 /* GameView.swift */,
+				EFAFD0E726FB1DF300C74923 /* GameViewModel.swift */,
 				EFAFD0E526F77E1C00C74923 /* Alerts.swift */,
 				EFAFD0D726F725C200C74923 /* Assets.xcassets */,
 				EFAFD0DC26F725C200C74923 /* LaunchScreen.storyboard */,
@@ -151,7 +154,8 @@
 				EFAFD0D226F725C100C74923 /* AppDelegate.swift in Sources */,
 				EFAFD0D426F725C100C74923 /* SceneDelegate.swift in Sources */,
 				EFAFD0E626F77E1C00C74923 /* Alerts.swift in Sources */,
-				EFAFD0D626F725C100C74923 /* ContentView.swift in Sources */,
+				EFAFD0E826FB1DF300C74923 /* GameViewModel.swift in Sources */,
+				EFAFD0D626F725C100C74923 /* GameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
